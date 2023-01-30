@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="99.98">
+<testcase classname="CoinMarket cap application functionality" name="CoinMarket cap application login with valid username and valid password" time="95.951">
+<failure message="element click intercepted: Element &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;none&quot; height=&quot;14&quot; width=&quot;14&quot; viewBox=&quot;0 0 24 24&quot; class=&quot;sc-aef7b723-0 dgXMPo&quot;&gt;...&lt;/svg&gt; is not clickable at point (1114, 498). Other element would receive the click: &lt;div class=&quot;bcapc-popup bcap-popup bcapc-popup-lang-en&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=109.0.5414.120)&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'LAPTOP-15RBTEBO', ip: '192.168.251.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1959fb8f50bfba7dc37af2223c6137e7, clickElement {id=4f154f7e-1c8b-420c-85e2-0bd79844ef10}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anser\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57739/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (1959fb8f50bfba7dc37af2223c6137e7)] -&gt; xpath: (//*[name()='svg'][@class='sc-aef7b723-0 dgXMPo'])[1]]&#10;Session ID: 1959fb8f50bfba7dc37af2223c6137e7" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[When user launch the Coin cap application...................................passed
+When user enters the valid "samik351993@gmail.com" and valid "sami.123".....passed
+When user clicks on login button............................................passed
+When user selecting the coins values........................................failed
+Then user collects the coins before and after the filters and comparing the results using assert.skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="14" width="14" viewBox="0 0 24 24" class="sc-aef7b723-0 dgXMPo">...</svg> is not clickable at point (1114, 498). Other element would receive the click: <div class="bcapc-popup bcap-popup bcapc-popup-lang-en">...</div>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-15RBTEBO', ip: '192.168.251.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1959fb8f50bfba7dc37af2223c6137e7, clickElement {id=4f154f7e-1c8b-420c-85e2-0bd79844ef10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anser\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57739/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1959fb8f50bfba7dc37af2223c6137e7)] -> xpath: (//*[name()='svg'][@class='sc-aef7b723-0 dgXMPo'])[1]]
+Session ID: 1959fb8f50bfba7dc37af2223c6137e7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at stepDefinitionPackage.coinMarketStepdefinition.user_selecting_the_coins_values(coinMarketStepdefinition.java:64)
+	at ✽.user selecting the coins values(file:///C:/Users/anser/eclipse-workspace/CoinMarketCapProject/src/test/java/com/features/coinmarket.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
